@@ -1,7 +1,7 @@
 import telebot
 import requests
 from telebot.types import InlineKeyboardMarkup,InlineKeyboardButton
-token = '8873100481:AAHtv5BEVeD5CV8hG5ZGso_kLHRRrGBViak'
+token = 'СЮДА ВСТАВЬ СВОЙ ТОКЕН'
 bot = telebot.TeleBot(token)
 murcup = InlineKeyboardMarkup()
 btn1 = InlineKeyboardButton('курс доллара',callback_data='dollar')
